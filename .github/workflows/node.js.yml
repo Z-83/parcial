@@ -23,7 +23,7 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-        working-directory: ./Backend
+        working-directory: ./backend
 
       - name: Run app
         run: node server.js &
